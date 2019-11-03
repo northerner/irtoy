@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.11.1)
+    libusb (0.6.4)
+      ffi (~> 1.0)
+      mini_portile2 (~> 2.1)
+    mini_portile2 (2.4.0)
+    rubyserial (0.6.0)
+      ffi (~> 1.9, >= 1.9.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  libusb (~> 0.6.4)
+  rubyserial (~> 0.6.0)
+
+BUNDLED WITH
+   2.0.2
